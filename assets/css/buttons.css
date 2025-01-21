@@ -1,0 +1,13 @@
+.btn-pink {
+  color: var(--bg-white);
+  background-color: var(--bg-pink);
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.btn-pink:hover {
+  color: var(--bg-white);
+  background-color: var(--bg-pink-hover);
+}
