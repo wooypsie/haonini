@@ -14,12 +14,12 @@
   </head>
 
   <body>
-    <!-- As a heading -->
+    <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container pt-2 pb-2">
         <a class="navbar-brand mb-0 h1" href="#">Haonini Doll</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler mb-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -63,6 +63,68 @@
       </div>
     </nav>
   </body>
+  <!-- End Navbar -->
+  <!-- Start Card -->
+  <main class="w-100 min-vh-100 background-banner d-flex align-items-center">
+    <div class="container">
+      <div
+        class="card rounded-4 border-0 p-1 pt-4 pb-4 p-lg-4 pb-md-0 pb-lg-0 shadow"
+      >
+        <div class="card-body">
+          <form class="pb-lg-2" onsubmit="return false;">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-2 mb-3">
+                <label for="group" class="form-label fw-bold"
+                  >Group Selection</label
+                >
+                <select
+                  class="form-select rounded-5"
+                  name="group"
+                  id="group"
+                  aria-label="Group Selection"
+                >
+                  <option value="" disabled selected>
+                    Select your favorite group
+                  </option>
+                  <option value="zerobaseone">Zerobaseone</option>
+                  <option value="kickflip">Kickflip</option>
+                  <option value="ive">IVE</option>
+                </select>
+              </div>
+              <div class="col-12 col-md-12 col-lg-3 mb-3">
+                <label for="options" class="form-label fw-bold"
+                  >What are you looking for?</label
+                >
+                <select
+                  class="form-select rounded-5"
+                  name="item"
+                  id="item"
+                  aria-label="Group Selection"
+                >
+                  <option value="" disabled selected>
+                    Select an item type
+                  </option>
+                  <option value="plushies">Plushies</option>
+                  <option value="keychains">Keychains</option>
+                  <option value="collectibles">Collectibles</option>
+                </select>
+              </div>
+              <div
+                class="col-12 col-md-12 col-lg-2 mb-3 pt-3 d-lg-flex align-item-end"
+              >
+                <a
+                  href="#"
+                  class="btn btn-lg btn-pink w-100 rounded-5 border-0 p-lg-1"
+                >
+                  Start exploring!</a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

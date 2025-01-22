@@ -1,0 +1,7 @@
+.form-select {
+  border: none;
+  color: var(--bg-grey);
+  background-color: var(--bg-grey-2);
+  font-weight: 400;
+  font-size: 16px;
+}

@@ -1,11 +1,14 @@
+@import "./assets/css/theme.css";
+@import "./navbar.css";
+@import "./buttons.css";
+
 /* start  css reset */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-
 /* end  css reset */
-@import "./assets/css/theme.css";
+
 /* start  general */
 /* end  general */
